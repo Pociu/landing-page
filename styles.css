@@ -13,11 +13,10 @@ header {
   color: #f9faf8;
   background-color: #1f2937;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
-.logo-container h1 {
-  margin-left: 15px;
+h1 {
   font-weight: 800;
 }
 
@@ -44,10 +43,11 @@ li {
   height: 500px;
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 
 .this-is-awesome {
-  flex: 1;
+  justify-self: center;
   color: #f9faf8;
   margin-left: 25px;
   margin-left: 100px;
@@ -61,9 +61,9 @@ li {
   width: 450px;
 }
 .placeholder {
-  flex: 1;
   color: #f9faf8;
   height: 200px;
+  width: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -91,11 +91,32 @@ li {
 }
 .cards {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  padding: 4em 65em 4em 65em;
 }
 .card {
   width: 205px;
 }
 .pepe {
   border-radius: 30%;
+  max-width: 100%;
+}
+.container-quote {
+  background-color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  height: 500px;
+  justify-content: center;
+  padding: 0em 45em 0em 45em;
+}
+
+.container-quote h3 {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+.container-quote h4 {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 24px;
 }
