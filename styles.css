@@ -47,7 +47,6 @@ li {
 }
 
 .this-is-awesome {
-  justify-self: center;
   color: #f9faf8;
   margin-left: 25px;
   margin-left: 100px;
@@ -73,13 +72,14 @@ li {
 
 .btn {
   background-color: #3882f6;
-  font-size: 22px;
+  font-size: 20px;
   text-align: center;
-  height: 50px;
-  width: 120px;
-  border-radius: 30px;
+  height: 30px;
+  width: 100px;
+  border-radius: 7px;
   color: white;
   margin-top: 15px;
+  border: 2px solid #3882f6;
 }
 
 .random-inf {
@@ -91,23 +91,26 @@ li {
 }
 .cards {
   display: flex;
-  justify-content: space-around;
-  padding: 4em 65em 4em 65em;
+  justify-content: space-evenly;
+  gap: 2;
+  margin-bottom: 50px;
 }
 .card {
   width: 205px;
 }
 .pepe {
+  border: solid 5px;
   border-radius: 30%;
   max-width: 100%;
 }
+
 .container-quote {
   background-color: #e5e7eb;
+  padding: 5em;
   display: flex;
   align-items: center;
-  height: 500px;
+  max-height: 100%;
   justify-content: center;
-  padding: 0em 45em 0em 45em;
 }
 
 .container-quote h3 {
@@ -119,4 +122,37 @@ li {
   display: flex;
   justify-content: flex-end;
   font-size: 24px;
+}
+
+.action {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.call-to-action {
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: #3882f6;
+  height: 150px;
+  width: 850px;
+  border-radius: 7px;
+}
+.call-to-action h3 {
+  font-size: 25px;
+}
+.btn-action {
+  background-color: #3882f6;
+  font-size: 20px;
+  text-align: center;
+  height: 30px;
+  width: 150px;
+  border-radius: 7px;
+  color: white;
+  margin-top: 15px;
+  border: 2px solid white;
 }
