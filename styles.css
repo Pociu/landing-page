@@ -156,3 +156,15 @@ li {
   margin-top: 15px;
   border: 2px solid white;
 }
+/* footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: white;
+  height: 75px;
+}
+span {
+  font-weight: 900;
+}
